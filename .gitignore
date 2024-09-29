@@ -1,0 +1,84 @@
+dependency-graph.pdf
+lerna-debug.log
+packages/**/node_modules
+node_modules
+yarn-error.log
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+
+# truffle
+packages/truffle/build
+packages/truffle/stats.json
+packages/truffle/.DS_Store
+packages/truffle/Thumbs.db
+packages/truffle/.tern-port
+packages/truffle/dependencies
+packages/truffle/$RECYCLE.BIN/
+
+# @truffle/debugger
+packages/debugger/.tmp
+
+# @truffle/contract
+packages/contract/browser-dist
+
+# python virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
