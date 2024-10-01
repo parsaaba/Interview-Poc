@@ -25,16 +25,16 @@ const Home: React.FC = () => {
         />
       </Box>
       <Heading as="h1" size="2xl" mb={4} textAlign="center">
-        NFT Collateralized Lending Platform
+        Collateralized NFT Lending DApp
       </Heading>
       <Text fontSize="lg" mb={6} textAlign="center" px={4}>
-        Borrow and lend using NFTs as collateral on our secure and efficient platform.
+       Leverage your NFTs as collateral to borrow and lend seamlessly on our secure and efficient platform.
       </Text>
       {!connected && <MetaMaskConnect />}
       {connected && (
         <Grid templateColumns="repeat(1, 1fr)" gap={6} mt={10}>
           <Button
-            colorScheme="pink"
+            colorScheme="blue"
             size="lg"
             onClick={() => {
               router.push("/borrowers");
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
           </Button>
           <Button
             variant="outline"
-            colorScheme="pink"
+            colorScheme="yellow"
             size="lg"
             onClick={() => {
               router.push("/lenders");
